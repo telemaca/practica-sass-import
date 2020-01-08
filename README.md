@@ -17,12 +17,12 @@ practica-sass-import
 │    │   ├── _icons.scss         
 │    │   ├── _dialog.scss        
 │    │   └── ...  
-│    ├── layout                  # Carpeta con archivos parciales por layouts
+│    ├── layout                  # Carpeta con archivos parciales por layouts (secciones de página)
 │    │   ├── _searchbar.scss         
 │    │   ├── _contacts.scss        
 │    │   └── ...
-│    ├── page
-│    │   └── _variables.scss     # Archivo parcial donde se guardan las variables    
+│    ├── page                    # Carpeta con archivos parciales por páginas
+│    │   └── _chat.scss        
 │    └── main.scss               # Archivo principal donde se importan los demás archivos parciales
 └── index.html
 ```
