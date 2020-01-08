@@ -29,15 +29,13 @@ practica-sass-import
 
 4. **No hacer como card**, hacer a pantalla completa (es decir, sin bordes redondeados y sin fondo, el borde debería coincider con el de la pantalla) 
 5. Hacer responsive, para lo cual:
-  * Ocultar la barra de contactos
-  * Ocultar el panel de llamado
-  * Fijar la barra de búsqueda
-  * Fijar la barra de escritura 
+   - Ocultar la barra de contactos
+   - Ocultar el panel de llamado
+   - Fijar la barra de búsqueda
+   - Fijar la barra de escritura 
   
 ### Recursos  
 
-[Paleta de colores](https://aco-viewer.appspot.com/443c197f088b593e6546405a271169b0)
-
-[Fuente](https://fonts.google.com/specimen/Varela+Round)
-
-[Imágenes de perfil randoms](https://randomuser.me/photos)
+- [Paleta de colores](https://aco-viewer.appspot.com/443c197f088b593e6546405a271169b0)
+- [Fuente](https://fonts.google.com/specimen/Varela+Round)
+- [Imágenes de perfil randoms](https://randomuser.me/photos)
