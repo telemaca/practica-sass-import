@@ -1,0 +1,32 @@
+.contacts-list{
+    width: 140px;
+
+
+}
+
+.small-contact-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: $secondary-color;
+    height: 140px;
+    font-size: 14px;
+    position: relative;
+
+    &:nth-child(1) span::after {
+        @include statusIndicator(rgb(59, 236, 228), 25px, 20px); 
+    }
+
+    &:nth-child(4) span::after {
+        @include statusIndicator(rgb(255, 94, 0), 25px, 20px); 
+    }
+
+    &:nth-child(6) span::after {
+        @include statusIndicator(rgb(59, 219, 59), 25px, 20px); 
+    }
+
+    &:nth-child(3) {
+        background-color: $main-background-color;
+    }
+}

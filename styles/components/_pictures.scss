@@ -1,0 +1,7 @@
+.contact-photo{
+    @include circle(60px);
+}
+
+.main-contact-photo{
+    @include circle(200px);
+}

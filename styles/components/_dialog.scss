@@ -1,0 +1,29 @@
+.contact-msg {
+    @include message(row-reverse, #fdfdfe);
+
+    .msg-bubble {
+        background-color: $contact-msg-background;
+        border-top-right-radius: 0;
+        margin-right: 20px;
+    }
+}
+
+.user-msg{
+    @include message;
+
+    .msg-bubble{
+        background-color: $user-msg-background;
+        border-top-left-radius: 0;
+        margin-left: 20px;
+    }
+}
+
+.msg-bubble{
+    max-width: 500px;
+    border-radius: 50px;
+    padding: 20px;
+
+    p{
+        margin: 0;
+    }
+}

@@ -1,0 +1,7 @@
+.call-btn{
+    @include button(rgb(67, 170, 67));
+}
+
+.cancel-btn{
+    @include button(rgb(216, 48, 48));
+}

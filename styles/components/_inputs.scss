@@ -1,0 +1,18 @@
+.search-input {
+    @include input(40px);
+    background-color: $main-background-color;
+    margin-left: 30px;
+}
+
+.search-icon{
+    position: absolute;
+    top: 10px;
+    left: 60px;
+    font-size: 13px;
+}
+
+.message-typing{
+    @include input(20px);
+    width: 600px;
+    margin: 0 30px;
+}

@@ -1,0 +1,14 @@
+header {
+    i {
+        color: $small-icons-color;
+        font-size: 20px;
+    }       
+}
+
+.messages::after{
+    @include statusIndicator(rgb(84, 211, 84), -10px, 40px);
+}
+
+.options::after{
+    @include statusIndicator(rgb(212, 39, 39), -10px, 10px);
+}

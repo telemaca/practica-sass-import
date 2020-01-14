@@ -1,0 +1,51 @@
+@mixin input($input-padding){
+    height: 35px;
+    border-radius: 50px;
+    border: 1.5px solid $secondary-color;
+    padding-left: $input-padding;
+    font-family: $main-font;
+}
+
+@mixin circle ($contact-photo-size){
+    height: $contact-photo-size;
+    width: $contact-photo-size;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+@mixin message ($row-reverse: null, $msg-font-color: null) {
+    display: flex;
+    flex-direction: $row-reverse;
+    font-size: $msg-font-size;
+    color: $msg-font-color;
+    position: relative;
+
+    img{
+        position: relative;
+        top: -40px;
+    }
+}
+
+@mixin button($button-color){
+    height: $circle-button-size;
+    width: $circle-button-size;
+    border-radius: 50%;
+    border: none;
+    background-color: $button-color;
+    color: white;
+    font-size: 24px;
+}
+
+@mixin statusIndicator($status-color, $top-position, $right-position) {
+    content: "";
+    height: 15px;
+    width: 15px;
+    display: block;
+    z-index: 20;
+    border: 1px solid white;
+    border-radius: 50%;
+    position: absolute;
+    top: $top-position;
+    right: $right-position;
+    background-color: $status-color;
+}

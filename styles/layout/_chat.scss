@@ -1,0 +1,23 @@
+main{
+    width: 70%;
+    height: 840px;
+}
+
+.chat-msgs{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 730px;
+    padding: 50px 50px 0 50px;
+}
+
+.msg-input{
+    width: 100%;
+    color: $small-icons-color;
+    font-size: 22px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+    border-top: 2px solid $secondary-color;
+}
