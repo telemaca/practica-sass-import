@@ -1,6 +1,11 @@
 main{
     width: 70%;
     height: 840px;
+
+    @media(max-width: 1220px){
+        width: 100%;
+        padding-top: 70px;
+    }
 }
 
 .chat-msgs{

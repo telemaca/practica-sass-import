@@ -26,4 +26,8 @@
     p{
         margin: 0;
     }
+
+    @media(max-width: 800px){
+        max-width: 350px;
+    }
 }

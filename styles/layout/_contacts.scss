@@ -1,7 +1,9 @@
 .contacts-list{
     width: 140px;
 
-
+    @media(max-width: 1350px){
+            display: none;   
+    }
 }
 
 .small-contact-info{

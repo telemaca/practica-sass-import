@@ -5,6 +5,10 @@
     justify-content: space-evenly;
     align-items: center;
     width: 40%;
+
+    @media(max-width:1220px){
+        display: none;
+    }
 }
 
 .contact-actions{
